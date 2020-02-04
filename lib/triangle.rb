@@ -5,6 +5,6 @@ class Triangle
     kind.each {|key, values| self.send(("#{key}="), value)}
   end
   
-  class TriangleError < StandardErrors
+  class TriangleError < StandardError
   end
 end
